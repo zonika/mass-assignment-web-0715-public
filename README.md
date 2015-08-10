@@ -8,12 +8,12 @@
 
 1. Create a Person class that can take an arbitrary number of the properties listed below on initialization through a hash.
 
-allowable properties: 
+allowable properties:
   ```ruby
   :name, :birthday, :hair_color, :eye_color, :height, :weight, :handed, :complexion, :t_shirt_size, :wrist_size, :glove_size, :pant_length, :pant_width
   ```
 Each key in the attributes hash will become a property of an initialized Person instance.
-  
+
   ex:
 
   ```ruby
